@@ -630,6 +630,7 @@ import _pond from '../life/still-life/strict-still-life/pond.json';
 import _professor from '../life/still-life/strict-still-life/professor.json';
 import _python_siamese_snake from '../life/still-life/strict-still-life/python-siamese-snake.json';
 import _rotated_c from '../life/still-life/strict-still-life/rotated-c.json';
+import _rotated_d from '../life/still-life/strict-still-life/rotated-d.json';
 import _rotated_table from '../life/still-life/strict-still-life/rotated-table.json';
 import _scorpion from '../life/still-life/strict-still-life/scorpion.json';
 import _sesquihat from '../life/still-life/strict-still-life/sesquihat.json';
@@ -1362,6 +1363,7 @@ render((
       <nav><Link href='/strict-still-life/professor'>{_professor.title}</Link></nav>
       <nav><Link href='/strict-still-life/python-siamese-snake'>{_python_siamese_snake.title}</Link></nav>
       <nav><Link href='/strict-still-life/rotated-c'>{_rotated_c.title}</Link></nav>
+      <nav><Link href='/strict-still-life/rotated-d'>{_rotated_d.title}</Link></nav>
       <nav><Link href='/strict-still-life/rotated-table'>{_rotated_table.title}</Link></nav>
       <nav><Link href='/strict-still-life/scorpion'>{_scorpion.title}</Link></nav>
       <nav><Link href='/strict-still-life/sesquihat'>{_sesquihat.title}</Link></nav>
@@ -2077,6 +2079,7 @@ render((
     <Pattern path='/strict-still-life/professor' lifeData={_professor} />
     <Pattern path='/strict-still-life/python-siamese-snake' lifeData={_python_siamese_snake} />
     <Pattern path='/strict-still-life/rotated-c' lifeData={_rotated_c} />
+    <Pattern path='/strict-still-life/rotated-d' lifeData={_rotated_d} />
     <Pattern path='/strict-still-life/rotated-table' lifeData={_rotated_table} />
     <Pattern path='/strict-still-life/scorpion' lifeData={_scorpion} />
     <Pattern path='/strict-still-life/sesquihat' lifeData={_sesquihat} />
